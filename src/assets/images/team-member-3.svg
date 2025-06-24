@@ -1,0 +1,38 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#f3f4f6"/>
+  
+  <!-- Professional shirt -->
+  <ellipse cx="100" cy="180" rx="80" ry="40" fill="#1e40af"/>
+  
+  <!-- Collar -->
+  <ellipse cx="100" cy="160" rx="60" ry="35" fill="#e5e7eb"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="90" r="35" fill="#fde68a"/>
+  
+  <!-- Hair (neat professional style) -->
+  <path d="M70 78 Q85 65 100 68 Q115 65 130 78 Q125 70 120 65 Q110 60 100 62 Q90 60 80 65 Q75 70 70 78 Z" fill="#4b5563"/>
+  
+  <!-- Glasses -->
+  <circle cx="90" cy="85" r="12" fill="none" stroke="#374151" stroke-width="2"/>
+  <circle cx="110" cy="85" r="12" fill="none" stroke="#374151" stroke-width="2"/>
+  <path d="M102 85 L108 85" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Eyes behind glasses -->
+  <circle cx="90" cy="85" r="3" fill="#1f2937"/>
+  <circle cx="110" cy="85" r="3" fill="#1f2937"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="95" rx="2" ry="4" fill="#f59e0b"/>
+  
+  <!-- Mouth -->
+  <path d="M95 105 Q100 110 105 105" stroke="#1f2937" stroke-width="2" fill="none"/>
+  
+  <!-- Professional badge -->
+  <rect x="85" y="140" width="30" height="15" rx="3" fill="#8c1b1c"/>
+  <text x="100" y="150" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">CTO</text>
+  
+  <!-- Beard -->
+  <path d="M85 110 Q100 120 115 110 Q110 125 100 128 Q90 125 85 110 Z" fill="#4b5563"/>
+</svg>

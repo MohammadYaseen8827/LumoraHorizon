@@ -1,0 +1,38 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#f3f4f6"/>
+  
+  <!-- Professional blazer -->
+  <ellipse cx="100" cy="180" rx="80" ry="40" fill="#374151"/>
+  
+  <!-- Blouse -->
+  <ellipse cx="100" cy="160" rx="60" ry="35" fill="#f9fafb"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="90" r="35" fill="#fde68a"/>
+  
+  <!-- Hair (professional bob cut) -->
+  <path d="M65 80 Q75 65 100 70 Q125 65 135 80 Q130 90 125 95 Q115 100 100 95 Q85 100 75 95 Q70 90 65 80 Z" fill="#92400e"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="85" r="3" fill="#1f2937"/>
+  <circle cx="110" cy="85" r="3" fill="#1f2937"/>
+  
+  <!-- Eyebrows -->
+  <path d="M85 80 Q90 78 95 80" stroke="#92400e" stroke-width="2" fill="none"/>
+  <path d="M105 80 Q110 78 115 80" stroke="#92400e" stroke-width="2" fill="none"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="95" rx="2" ry="4" fill="#f59e0b"/>
+  
+  <!-- Mouth -->
+  <path d="M95 105 Q100 110 105 105" stroke="#dc2626" stroke-width="2" fill="none"/>
+  
+  <!-- Professional badge -->
+  <rect x="85" y="140" width="30" height="15" rx="3" fill="#8c1b1c"/>
+  <text x="100" y="150" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">COO</text>
+  
+  <!-- Earrings -->
+  <circle cx="75" cy="90" r="2" fill="#fbbf24"/>
+  <circle cx="125" cy="90" r="2" fill="#fbbf24"/>
+</svg>

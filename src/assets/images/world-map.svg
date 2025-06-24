@@ -1,0 +1,66 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="400" fill="#f9d6a5"/>
+  
+  <!-- World Map Continents -->
+  <!-- North America -->
+  <path d="M80 120 Q120 80 160 100 L200 110 Q220 130 210 150 L180 180 Q140 200 100 190 L70 170 Q50 140 80 120 Z" fill="#8FBC8F" stroke="#6B8E6B" stroke-width="2"/>
+  
+  <!-- South America -->
+  <path d="M150 220 Q170 200 190 220 L200 280 Q190 320 170 340 L160 310 Q140 260 150 220 Z" fill="#8FBC8F" stroke="#6B8E6B" stroke-width="2"/>
+  
+  <!-- Europe -->
+  <path d="M320 110 Q360 100 380 120 L400 130 Q390 150 370 140 L340 145 Q310 135 320 110 Z" fill="#8FBC8F" stroke="#6B8E6B" stroke-width="2"/>
+  
+  <!-- Africa -->
+  <path d="M340 160 Q380 150 400 180 L410 240 Q400 280 380 300 L370 270 Q350 220 340 160 Z" fill="#8FBC8F" stroke="#6B8E6B" stroke-width="2"/>
+  
+  <!-- Asia -->
+  <path d="M420 90 Q500 80 580 100 L640 110 Q660 130 650 150 L620 170 Q560 160 500 150 L460 140 Q400 120 420 90 Z" fill="#8FBC8F" stroke="#6B8E6B" stroke-width="2"/>
+  
+  <!-- Australia -->
+  <path d="M560 280 Q600 270 620 290 L630 310 Q620 330 590 320 L570 310 Q550 300 560 280 Z" fill="#8FBC8F" stroke="#6B8E6B" stroke-width="2"/>
+  
+  <!-- Shipping Routes -->
+  <path d="M180 140 Q300 120 420 130" stroke="#8c1b1c" stroke-width="3" fill="none" stroke-dasharray="8,4" opacity="0.8"/>
+  <path d="M380 160 Q500 150 600 160" stroke="#8c1b1c" stroke-width="3" fill="none" stroke-dasharray="8,4" opacity="0.8"/>
+  <path d="M200 200 Q360 220 560 300" stroke="#8c1b1c" stroke-width="3" fill="none" stroke-dasharray="8,4" opacity="0.8"/>
+  
+  <!-- Ports/Destinations -->
+  <circle cx="180" cy="140" r="6" fill="#8c1b1c"/>
+  <circle cx="370" cy="140" r="6" fill="#8c1b1c"/>
+  <circle cx="540" cy="140" r="6" fill="#8c1b1c"/>
+  <circle cx="380" cy="180" r="6" fill="#8c1b1c"/>
+  <circle cx="580" cy="300" r="6" fill="#8c1b1c"/>
+  
+  <!-- Container Ships -->
+  <g transform="translate(280,135)">
+    <rect x="0" y="0" width="30" height="8" fill="#8c1b1c"/>
+    <rect x="3" y="-5" width="6" height="5" fill="#f9d6a5"/>
+    <rect x="12" y="-5" width="6" height="5" fill="#34C759"/>
+    <rect x="21" y="-5" width="6" height="5" fill="#007AFF"/>
+  </g>
+  
+  <g transform="translate(450,155)">
+    <rect x="0" y="0" width="30" height="8" fill="#8c1b1c"/>
+    <rect x="3" y="-5" width="6" height="5" fill="#FF3B30"/>
+    <rect x="12" y="-5" width="6" height="5" fill="#f9d6a5"/>
+    <rect x="21" y="-5" width="6" height="5" fill="#5856D6"/>
+  </g>
+  
+  <!-- Airplanes -->
+  <g transform="translate(320,110) rotate(45)">
+    <ellipse cx="0" cy="0" rx="12" ry="2" fill="#8c1b1c"/>
+    <ellipse cx="-4" cy="0" rx="6" ry="1" fill="#f9d6a5"/>
+  </g>
+  
+  <g transform="translate(480,125) rotate(-30)">
+    <ellipse cx="0" cy="0" rx="12" ry="2" fill="#8c1b1c"/>
+    <ellipse cx="-4" cy="0" rx="6" ry="1" fill="#f9d6a5"/>
+  </g>
+  
+  <!-- Connection Lines -->
+  <line x1="180" y1="140" x2="320" y2="110" stroke="#8c1b1c" stroke-width="2" opacity="0.4"/>
+  <line x1="370" y1="140" x2="480" y2="125" stroke="#8c1b1c" stroke-width="2" opacity="0.4"/>
+  <line x1="540" y1="140" x2="580" y2="300" stroke="#8c1b1c" stroke-width="2" opacity="0.4"/>
+</svg>

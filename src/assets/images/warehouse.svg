@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ground -->
+  <rect x="0" y="180" width="400" height="20" fill="#8B7355"/>
+  
+  <!-- Warehouse Building -->
+  <rect x="50" y="80" width="300" height="100" fill="#f0f0f0"/>
+  <polygon points="50,80 200,30 350,80" fill="#8c1b1c"/>
+  
+  <!-- Main Door -->
+  <rect x="160" y="120" width="80" height="60" fill="#666"/>
+  <rect x="165" y="125" width="35" height="50" fill="#333"/>
+  <rect x="205" y="125" width="35" height="50" fill="#333"/>
+  
+  <!-- Windows -->
+  <rect x="80" y="100" width="25" height="20" fill="#4A90E2"/>
+  <rect x="120" y="100" width="25" height="20" fill="#4A90E2"/>
+  <rect x="260" y="100" width="25" height="20" fill="#4A90E2"/>
+  <rect x="300" y="100" width="25" height="20" fill="#4A90E2"/>
+  
+  <!-- Loading Dock -->
+  <rect x="50" y="160" width="30" height="20" fill="#666"/>
+  <rect x="320" y="160" width="30" height="20" fill="#666"/>
+  
+  <!-- Cargo Boxes -->
+  <rect x="90" y="150" width="20" height="15" fill="#f9d6a5"/>
+  <rect x="115" y="150" width="20" height="15" fill="#34C759"/>
+  <rect x="90" y="135" width="20" height="15" fill="#FF3B30"/>
+  
+  <rect x="270" y="150" width="20" height="15" fill="#007AFF"/>
+  <rect x="295" y="150" width="20" height="15" fill="#FF9500"/>
+  <rect x="270" y="135" width="20" height="15" fill="#5856D6"/>
+  
+  <!-- Forklift -->
+  <rect x="130" y="165" width="15" height="8" fill="#FFD700"/>
+  <rect x="135" y="160" width="5" height="5" fill="#FFD700"/>
+  <line x1="140" y1="160" x2="140" y2="145" stroke="#666" stroke-width="2"/>
+  <rect x="138" y="145" width="4" height="8" fill="#f9d6a5"/>
+  <circle cx="135" cy="175" r="3" fill="#333"/>
+  <circle cx="145" cy="175" r="3" fill="#333"/>
+  
+  <!-- Company Sign -->
+  <rect x="180" y="50" width="40" height="15" fill="#f9d6a5"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial" font-size="8" fill="#8c1b1c">LUMORA</text>
+  
+  <!-- Chimney with Smoke -->
+  <rect x="320" y="60" width="8" height="20" fill="#666"/>
+  <circle cx="325" cy="55" r="2" fill="#ddd" opacity="0.7"/>
+  <circle cx="328" cy="50" r="3" fill="#ddd" opacity="0.5"/>
+  <circle cx="330" cy="45" r="4" fill="#ddd" opacity="0.3"/>
+</svg>

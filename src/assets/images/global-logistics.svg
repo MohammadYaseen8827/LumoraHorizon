@@ -1,0 +1,75 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- World Map Outline -->
+  <!-- North America -->
+  <path d="M50 80 Q70 60 90 70 L110 75 Q120 85 115 95 L100 120 Q80 130 60 125 L45 110 Q40 95 50 80 Z" fill="#e9ecef" stroke="#8c1b1c" stroke-width="2"/>
+  
+  <!-- South America -->
+  <path d="M70 140 Q80 130 90 140 L95 170 Q90 190 80 200 L75 185 Q65 160 70 140 Z" fill="#e9ecef" stroke="#8c1b1c" stroke-width="2"/>
+  
+  <!-- Europe -->
+  <path d="M160 70 Q180 65 190 75 L200 80 Q195 90 185 85 L170 90 Q155 85 160 70 Z" fill="#e9ecef" stroke="#8c1b1c" stroke-width="2"/>
+  
+  <!-- Africa -->
+  <path d="M170 100 Q190 95 200 110 L205 140 Q200 160 190 170 L185 155 Q175 130 170 100 Z" fill="#e9ecef" stroke="#8c1b1c" stroke-width="2"/>
+  
+  <!-- Asia -->
+  <path d="M220 60 Q260 55 290 65 L320 70 Q330 80 325 90 L310 100 Q280 95 250 90 L230 85 Q215 75 220 60 Z" fill="#e9ecef" stroke="#8c1b1c" stroke-width="2"/>
+  
+  <!-- Australia -->
+  <path d="M280 160 Q300 155 310 165 L315 175 Q310 185 295 180 L285 175 Q275 170 280 160 Z" fill="#e9ecef" stroke="#8c1b1c" stroke-width="2"/>
+  
+  <!-- Shipping Routes -->
+  <path d="M90 100 Q150 90 220 85" stroke="#f9d6a5" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <path d="M200 120 Q250 110 300 105" stroke="#f9d6a5" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <path d="M100 130 Q180 140 280 170" stroke="#f9d6a5" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Ports/Cities -->
+  <circle cx="90" cy="100" r="4" fill="#8c1b1c"/>
+  <circle cx="185" cy="85" r="4" fill="#8c1b1c"/>
+  <circle cx="270" cy="85" r="4" fill="#8c1b1c"/>
+  <circle cx="200" cy="120" r="4" fill="#8c1b1c"/>
+  <circle cx="290" cy="170" r="4" fill="#8c1b1c"/>
+  
+  <!-- Ships on routes -->
+  <g transform="translate(140,95)">
+    <path d="M0 0 L15 0 L12 -3 L3 -3 Z" fill="#8c1b1c"/>
+    <rect x="4" y="-5" width="2" height="2" fill="#f9d6a5"/>
+    <rect x="7" y="-5" width="2" height="2" fill="#34C759"/>
+  </g>
+  
+  <g transform="translate(240,110)">
+    <path d="M0 0 L15 0 L12 -3 L3 -3 Z" fill="#8c1b1c"/>
+    <rect x="4" y="-5" width="2" height="2" fill="#007AFF"/>
+    <rect x="7" y="-5" width="2" height="2" fill="#FF3B30"/>
+  </g>
+  
+  <!-- Airplanes -->
+  <g transform="translate(160,75) rotate(45)">
+    <ellipse cx="0" cy="0" rx="8" ry="1" fill="#8c1b1c"/>
+    <ellipse cx="-3" cy="0" rx="4" ry="0.5" fill="#f9d6a5"/>
+  </g>
+  
+  <g transform="translate(250,90) rotate(-30)">
+    <ellipse cx="0" cy="0" rx="8" ry="1" fill="#8c1b1c"/>
+    <ellipse cx="-3" cy="0" rx="4" ry="0.5" fill="#f9d6a5"/>
+  </g>
+  
+  <!-- Statistics Cards -->
+  <rect x="50" y="220" width="80" height="50" fill="white" stroke="#e9ecef" stroke-width="2" rx="5"/>
+  <text x="90" y="235" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#8c1b1c">150+</text>
+  <text x="90" y="250" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Countries</text>
+  <text x="90" y="262" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Served</text>
+  
+  <rect x="160" y="220" width="80" height="50" fill="white" stroke="#e9ecef" stroke-width="2" rx="5"/>
+  <text x="200" y="235" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#8c1b1c">24/7</text>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Global</text>
+  <text x="200" y="262" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Support</text>
+  
+  <rect x="270" y="220" width="80" height="50" fill="white" stroke="#e9ecef" stroke-width="2" rx="5"/>
+  <text x="310" y="235" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#8c1b1c">99.9%</text>
+  <text x="310" y="250" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">On-Time</text>
+  <text x="310" y="262" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Delivery</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#f3f4f6"/>
+  
+  <!-- Professional suit -->
+  <ellipse cx="100" cy="180" rx="80" ry="40" fill="#1f2937"/>
+  
+  <!-- Shirt -->
+  <ellipse cx="100" cy="160" rx="60" ry="35" fill="white"/>
+  
+  <!-- Tie -->
+  <ellipse cx="100" cy="150" rx="8" ry="25" fill="#8c1b1c"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="90" r="35" fill="#fde68a"/>
+  
+  <!-- Hair -->
+  <path d="M70 75 Q85 60 100 65 Q115 60 130 75 Q125 55 100 50 Q75 55 70 75 Z" fill="#374151"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="85" r="3" fill="#1f2937"/>
+  <circle cx="110" cy="85" r="3" fill="#1f2937"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="95" rx="2" ry="4" fill="#f59e0b"/>
+  
+  <!-- Mouth -->
+  <path d="M95 105 Q100 110 105 105" stroke="#1f2937" stroke-width="2" fill="none"/>
+  
+  <!-- Professional badge -->
+  <rect x="85" y="140" width="30" height="15" rx="3" fill="#8c1b1c"/>
+  <text x="100" y="150" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">CEO</text>
+</svg>
