@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative bg-gray-900 text-white py-24 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/src/assets/images/modern-warehouse.webp')">
+    <section class="relative bg-gray-900 text-white py-24 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/modern-warehouse.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-4xl font-bold mb-6">
@@ -102,7 +102,7 @@
               <!-- Fragile Packaging Image -->
               <div>
                 <img 
-                  src="/src/assets/images/fragile-packaging.webp" 
+                  src="/images/fragile-packaging.webp" 
                   alt="Professional fragile packaging services"
                   class="w-full h-64 object-cover rounded-lg shadow-lg"
                 />
@@ -112,7 +112,7 @@
               <!-- Warehouse Storage Image -->
               <div>
                 <img 
-                  src="/src/assets/images/warehouse-storage.webp" 
+                  src="/images/warehouse-storage.webp" 
                   alt="Secure warehouse storage facilities"
                   class="w-full h-64 object-cover rounded-lg shadow-lg"
                 />

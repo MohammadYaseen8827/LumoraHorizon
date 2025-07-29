@@ -65,7 +65,7 @@
             </router-link>
           </div>
           <div>
-            <img src="/src/assets/images/emirates-aircraft.webp" alt="Air Freight Services" class="w-full h-auto rounded-lg">
+            <img src="/images/emirates-aircraft.webp" alt="Air Freight Services" class="w-full h-auto rounded-lg">
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div class="order-2 lg:order-1">
-            <img src="/src/assets/images/hapag-lloyd-ship.webp" alt="Sea Freight Services" class="w-full h-auto rounded-lg">
+            <img src="/images/hapag-lloyd-ship.webp" alt="Sea Freight Services" class="w-full h-auto rounded-lg">
           </div>
           <div class="order-1 lg:order-2">
             <h2 class="text-3xl font-bold text-gray-900 mb-6">Sea Freight</h2>
@@ -182,7 +182,7 @@
             </router-link>
           </div>
           <div>
-            <img src="/src/assets/images/red-truck.webp" alt="Land Freight Services" class="w-full h-auto rounded-lg">
+            <img src="/images/red-truck.webp" alt="Land Freight Services" class="w-full h-auto rounded-lg">
           </div>
         </div>
       </div>
@@ -193,7 +193,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div class="order-2 lg:order-1">
-            <img src="/src/assets/images/truck-queue-customs.webp" alt="Domestic Transportation Services" class="w-full h-auto rounded-lg">
+            <img src="/images/truck-queue-customs.webp" alt="Domestic Transportation Services" class="w-full h-auto rounded-lg">
           </div>
           <div class="order-1 lg:order-2">
             <h2 class="text-3xl font-bold text-gray-900 mb-6">Domestic Transportation</h2>
@@ -283,7 +283,7 @@
             </router-link>
           </div>
           <div>
-            <img src="/src/assets/images/customs-clearance-main.webp" alt="Customs Clearance Services" class="w-full h-auto rounded-lg">
+            <img src="/images/customs-clearance-main.webp" alt="Customs Clearance Services" class="w-full h-auto rounded-lg">
           </div>
         </div>
       </div>
@@ -353,7 +353,7 @@
             </router-link>
           </div>
           <div>
-            <img src="/src/assets/images/modern-warehouse.webp" alt="Packing & Storage Services" class="w-full h-auto rounded-lg">
+            <img src="/images/modern-warehouse.webp" alt="Packing & Storage Services" class="w-full h-auto rounded-lg">
           </div>
         </div>
       </div>
@@ -364,7 +364,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div class="order-2 lg:order-1">
-            <img src="/src/assets/images/global-network-map.webp" alt="Global Network Services" class="w-full h-auto rounded-lg">
+            <img src="/images/global-network-map.webp" alt="Global Network Services" class="w-full h-auto rounded-lg">
           </div>
           <div class="order-1 lg:order-2">
             <h2 class="text-3xl font-bold text-gray-900 mb-6">Global Network</h2>

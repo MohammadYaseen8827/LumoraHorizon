@@ -16,7 +16,7 @@
         <!-- Slide 1: Logo -->
         <div class="absolute inset-0 transition-opacity duration-1000" :class="{ 'opacity-100': currentSlide === 0, 'opacity-0': currentSlide !== 0 }">
           <div class="relative w-full h-full bg-gradient-to-br from-lumora-beige via-yellow-50 to-white">
-            <img src="/src/assets/images/lumora-logo-final.webp" alt="Lumora Horizon Logo" class="w-full h-full object-cover" loading="lazy">
+            <img src="/images/lumora-logo-final.webp" alt="Lumora Horizon Logo" class="w-full h-full object-cover" loading="lazy">
 
           </div>
         </div>
@@ -26,7 +26,7 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 1"
-              src="/src/assets/images/airfreight-service.mp4" 
+              src="/images/airfreight-service.mp4" 
               autoplay 
               muted 
               loop 
@@ -59,7 +59,7 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 2"
-              src="/src/assets/images/seafreight-service.mp4" 
+              src="/images/seafreight-service.mp4" 
               autoplay 
               muted 
               loop 
@@ -92,7 +92,7 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 3"
-              src="/src/assets/images/landfreight-service.mp4" 
+              src="/images/landfreight-service.mp4" 
               autoplay 
               muted 
               loop 
@@ -125,7 +125,7 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 4"
-              src="/src/assets/images/customs-clearance.mp4" 
+              src="/images/customs-clearance.mp4" 
               autoplay 
               muted 
               loop 
@@ -158,7 +158,7 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 5"
-              src="/src/assets/images/domestic-transport.mp4" 
+              src="/images/domestic-transport.mp4" 
               autoplay 
               muted 
               loop 
@@ -191,7 +191,7 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 6"
-              src="/src/assets/images/storage-service.mp4" 
+              src="/images/storage-service.mp4" 
               autoplay 
               muted 
               loop 
@@ -224,7 +224,7 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 7"
-              src="/src/assets/images/global-networking-video.mp4" 
+              src="/images/global-networking-video.mp4" 
               autoplay 
               muted 
               loop 
@@ -383,7 +383,7 @@
         
         <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
           <!-- Air Freight Services -->
-          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/src/assets/images/emirates-aircraft.webp')">
+          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/emirates-aircraft.webp')">
             <h3 class="text-lg font-semibold text-white mb-2">Air Freight</h3>
             <p class="text-sm text-white/90 mb-4 leading-relaxed">
               Fast air cargo worldwide to Iraq serving Erbil, Baghdad, Sulaymaniyah, and Basra airports.
@@ -394,7 +394,7 @@
           </div>
           
           <!-- Sea Freight Services -->
-          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/src/assets/images/hapag-lloyd-ship.webp')">
+          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/hapag-lloyd-ship.webp')">
             <h3 class="text-lg font-semibold text-white mb-2">Sea Freight</h3>
             <p class="text-sm text-white/90 mb-4 leading-relaxed">
               FCL/LCL ocean freight from China, UAE, India, Korea to Iraq via Um Qasr Port.
@@ -405,7 +405,7 @@
           </div>
           
           <!-- Land Freight Services -->
-          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/src/assets/images/red-truck.webp')">
+          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/red-truck.webp')">
             <h3 class="text-lg font-semibold text-white mb-2">Land Freight</h3>
             <p class="text-sm text-white/90 mb-4 leading-relaxed">
               Trucking from Europe & Turkey to Iraq via Ibrahim Khalil border crossing.
@@ -416,7 +416,7 @@
           </div>
           
           <!-- Customs Clearance -->
-          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/src/assets/images/customs-clearance-main.webp')">
+          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/customs-clearance-main.webp')">
             <h3 class="text-lg font-semibold text-white mb-2">Customs Clearance</h3>
             <p class="text-sm text-white/90 mb-4 leading-relaxed">
               Expert clearance at all Iraqi airports, ports, and border crossings.
@@ -430,7 +430,7 @@
         <!-- Second Row of Services -->
         <div class="grid md:grid-cols-3 gap-6 mb-12">
           <!-- Domestic Transportation -->
-          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/src/assets/images/truck-queue-customs.webp')">
+          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/truck-queue-customs.webp')">
             <h3 class="text-lg font-semibold text-white mb-2">Domestic Transport</h3>
             <p class="text-sm text-white/90 mb-4 leading-relaxed">
               Nationwide delivery across Iraq from Kurdistan to Basra with refrigerated options.
@@ -441,7 +441,7 @@
           </div>
           
           <!-- Packing & Storage -->
-          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/src/assets/images/modern-warehouse.webp')">
+          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/modern-warehouse.webp')">
             <h3 class="text-lg font-semibold text-white mb-2">Packing & Storage</h3>
             <p class="text-sm text-white/90 mb-4 leading-relaxed">
               Professional packing, secure warehousing, and comprehensive cargo insurance.
@@ -452,7 +452,7 @@
           </div>
           
           <!-- Global Network -->
-          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/src/assets/images/global-network-map.webp')">
+          <div class="relative overflow-hidden text-center p-6 rounded-xl border border-gray-100 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/global-network-map.webp')">
             <h3 class="text-lg font-semibold text-white mb-2">Global Network</h3>
             <p class="text-sm text-white/90 mb-4 leading-relaxed">
               Worldwide reach through GLA, WCA, and JCtrans logistics partnerships.
@@ -603,7 +603,7 @@
         <div class="grid md:grid-cols-3 gap-8">
           <div class="bg-white p-8 rounded-lg shadow-sm">
             <div class="flex items-center mb-4">
-              <img src="/src/assets/images/sarah.webp" alt="Sarah Johnson" class="w-12 h-12 rounded-full mr-4 object-cover" loading="lazy">
+              <img src="/images/sarah.webp" alt="Sarah Johnson" class="w-12 h-12 rounded-full mr-4 object-cover" loading="lazy">
               <div>   
                 <h4 class="font-semibold text-gray-900">Sarah Johnson</h4>
                 <p class="text-sm text-gray-600">Supply Chain Director, TechCorp</p>
@@ -634,7 +634,7 @@
 
           <div class="bg-white p-8 rounded-lg shadow-sm">
             <div class="flex items-center mb-4">
-              <img src="/src/assets/images/michel.webp" alt="Michael Chen" class="w-12 h-12 rounded-full mr-4 object-cover" loading="lazy">
+              <img src="/images/michel.webp" alt="Michael Chen" class="w-12 h-12 rounded-full mr-4 object-cover" loading="lazy">
               <div>
                 <h4 class="font-semibold text-gray-900">Michael Chen</h4>
                 <p class="text-sm text-gray-600">Logistics Manager, GlobalTrade Inc</p>
@@ -665,7 +665,7 @@
 
           <div class="bg-white p-8 rounded-lg shadow-sm">
             <div class="flex items-center mb-4">
-              <img src="/src/assets/images/emily.webp" alt="Emily Rodriguez" class="w-12 h-12 rounded-full mr-4 object-cover" loading="lazy">
+              <img src="/images/emily.webp" alt="Emily Rodriguez" class="w-12 h-12 rounded-full mr-4 object-cover" loading="lazy">
               <div>
                 <h4 class="font-semibold text-gray-900">Emily Rodriguez</h4>
                 <p class="text-sm text-gray-600">Operations Director, ManuCorp</p>

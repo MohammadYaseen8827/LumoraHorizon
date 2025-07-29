@@ -12,7 +12,7 @@
             </p>
           </div>
           <div class="flex justify-center">
-            <img src="/src/assets/images/truck.svg" alt="Land Transport Services" class="w-full max-w-lg h-auto">
+            <img src="/images/truck.svg" alt="Land Transport Services" class="w-full max-w-lg h-auto">
           </div>
         </div>
       </div>

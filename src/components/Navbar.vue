@@ -6,7 +6,7 @@
         <div class="flex items-center">
           <router-link to="/" class="flex items-center">
             <img 
-              src="/src/assets/images/lumora-logo-final.webp" 
+              src="/images/lumora-logo-final.webp" 
               alt="Lumora Horizon Logo" 
               class="h-12 w-auto object-contain max-w-[220px]"
             />

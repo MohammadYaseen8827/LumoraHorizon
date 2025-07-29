@@ -12,7 +12,7 @@
             </p>
           </div>
           <div class="flex justify-center">
-            <img src="/src/assets/images/customs.svg" alt="Custom Clearance Services" class="w-full max-w-lg h-auto">
+            <img src="/images/customs.svg" alt="Custom Clearance Services" class="w-full max-w-lg h-auto">
           </div>
         </div>
       </div>

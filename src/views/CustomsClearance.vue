@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/src/assets/images/customs-clearance-main.webp')">
+    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/customs-clearance-main.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-4xl font-bold mb-6">
@@ -92,7 +92,7 @@
             <!-- Custom Clearance Example Image -->
             <div class="mb-8">
               <img 
-                src="/src/assets/images/custom-clearance-example.png" 
+                src="/images/custom-clearance-example.png" 
                 alt="Cargo handling and customs clearance example"
                 class="w-full h-64 object-cover rounded-lg shadow-lg"
               />

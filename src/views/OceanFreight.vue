@@ -12,7 +12,7 @@
             </p>
           </div>
           <div class="flex justify-center">
-            <img src="/src/assets/images/container-ship.svg" alt="Ocean Freight Container Ship" class="w-full max-w-lg h-auto">
+            <img src="/images/container-ship.svg" alt="Ocean Freight Container Ship" class="w-full max-w-lg h-auto">
           </div>
         </div>
       </div>

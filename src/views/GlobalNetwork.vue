@@ -22,7 +22,7 @@
         <!-- Network Visualization -->
         <div class="text-center mb-16">
           <div class="mb-8">
-            <img src="/src/assets/images/global-network-map.webp" alt="Global Logistics Network" class="w-full h-auto rounded-lg shadow-lg mx-auto max-w-4xl">
+            <img src="/images/global-network-map.webp" alt="Global Logistics Network" class="w-full h-auto rounded-lg shadow-lg mx-auto max-w-4xl">
           </div>
           <h2 class="text-3xl font-bold text-gray-900 mb-4">
             Worldwide Reach, Local Expertise
@@ -45,7 +45,7 @@
             <!-- GLA -->
             <div class="bg-teal-50 rounded-lg p-8 text-center">
               <div class="w-24 h-16 mx-auto mb-4 flex items-center justify-center">
-                <img src="/src/assets/images/gla-logo.png" alt="Global Logistics Alliance" class="w-full h-full object-contain">
+                <img src="/images/gla-logo.png" alt="Global Logistics Alliance" class="w-full h-full object-contain">
               </div>
               <h4 class="text-xl font-semibold text-gray-900 mb-3">Global Logistics Alliance</h4>
               <p class="text-gray-600 text-sm leading-relaxed">
@@ -56,7 +56,7 @@
             <!-- WCA -->
             <div class="bg-blue-50 rounded-lg p-8 text-center">
               <div class="w-24 h-16 mx-auto mb-4 flex items-center justify-center">
-                <img src="/src/assets/images/wca-logo.png" alt="World Cargo Alliance" class="w-full h-full object-contain">
+                <img src="/images/wca-logo.png" alt="World Cargo Alliance" class="w-full h-full object-contain">
               </div>
               <h4 class="text-xl font-semibold text-gray-900 mb-3">World Cargo Alliance</h4>
               <p class="text-gray-600 text-sm leading-relaxed">
@@ -67,7 +67,7 @@
             <!-- JCtrans -->
             <div class="bg-orange-50 rounded-lg p-8 text-center">
               <div class="w-24 h-16 mx-auto mb-4 flex items-center justify-center">
-                <img src="/src/assets/images/jctrans-logo.png" alt="JCtrans Logistics Network" class="w-full h-full object-contain">
+                <img src="/images/jctrans-logo.png" alt="JCtrans Logistics Network" class="w-full h-full object-contain">
               </div>
               <h4 class="text-xl font-semibold text-gray-900 mb-3">JCtrans Logistics Network</h4>
               <p class="text-gray-600 text-sm leading-relaxed">
@@ -90,7 +90,7 @@
             <!-- Qatar Cargo Image -->
             <div class="text-center">
               <img 
-                src="/src/assets/images/qatar-cargo.webp" 
+                src="/images/qatar-cargo.webp" 
                 alt="International air cargo operations - Qatar Airways Cargo"
                 class="w-full h-48 object-cover rounded-lg shadow-lg mb-4"
               />
@@ -100,7 +100,7 @@
             <!-- Container Ship Port Image -->
             <div class="text-center">
               <img 
-                src="/src/assets/images/container-ship-port.webp" 
+                src="/images/container-ship-port.webp" 
                 alt="Global sea freight operations - Container ship at port"
                 class="w-full h-48 object-cover rounded-lg shadow-lg mb-4"
               />
@@ -110,7 +110,7 @@
             <!-- Air Cargo Loading Image -->
             <div class="text-center">
               <img 
-                src="/src/assets/images/air-cargo-loading.webp" 
+                src="/images/air-cargo-loading.webp" 
                 alt="Professional air cargo handling operations"
                 class="w-full h-48 object-cover rounded-lg shadow-lg mb-4"
               />

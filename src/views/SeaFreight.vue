@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/src/assets/images/hapag-lloyd-ship.webp')">
+    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/hapag-lloyd-ship.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-4xl font-bold mb-6">
@@ -90,7 +90,7 @@
             <!-- Container Ship Port Image -->
             <div class="mb-8">
               <img 
-                src="/src/assets/images/container-ship-port.webp" 
+                src="/images/container-ship-port.webp" 
                 alt="Container ship at port - Ocean freight services to Iraq"
                 class="w-full h-64 object-cover rounded-lg shadow-lg"
               />
@@ -100,7 +100,7 @@
             <!-- Port Operations Image -->
             <div class="mb-8">
               <img 
-                src="/src/assets/images/container-port.webp" 
+                src="/images/container-port.webp" 
                 alt="Container port operations - Loading and unloading cargo"
                 class="w-full h-64 object-cover rounded-lg shadow-lg"
               />

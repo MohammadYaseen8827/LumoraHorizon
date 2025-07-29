@@ -7,7 +7,7 @@
         <div class="md:col-span-1">
           <div class="mb-6">
             <img 
-              src="/src/assets/images/lumora-logo-final.webp" 
+              src="/images/lumora-logo-final.webp" 
               alt="Lumora Horizon" 
               class="h-16 w-auto object-contain max-w-[200px]"
             />

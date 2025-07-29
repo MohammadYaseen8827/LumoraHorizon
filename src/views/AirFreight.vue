@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/src/assets/images/emirates-aircraft.webp')">
+    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/emirates-aircraft.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-4xl font-bold mb-6">
@@ -90,7 +90,7 @@
             <!-- Air Cargo Operations Image -->
             <div class="mb-8">
               <img 
-                src="/src/assets/images/airport-terminal.webp" 
+                src="/images/airport-terminal.webp" 
                 alt="Modern airport terminal with aircraft - Air freight services to Iraq"
                 class="w-full h-64 object-cover rounded-lg shadow-lg"
               />
@@ -100,7 +100,7 @@
             <!-- Qatar Cargo Operations Image -->
             <div class="mb-8">
               <img 
-                src="/src/assets/images/qatar-cargo.webp" 
+                src="/images/qatar-cargo.webp" 
                 alt="Qatar Cargo operations - Professional air freight services"
                 class="w-full h-64 object-cover rounded-lg shadow-lg"
               />

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/src/assets/images/truck-queue-customs.webp')">
+    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/truck-queue-customs.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-4xl font-bold mb-6">
@@ -110,7 +110,7 @@
             <!-- Red Truck Image -->
             <div class="mb-8">
               <img 
-                src="/src/assets/images/red-truck.webp" 
+                src="/images/red-truck.webp" 
                 alt="Professional domestic transportation truck fleet"
                 class="w-full h-64 object-cover rounded-lg shadow-lg"
               />

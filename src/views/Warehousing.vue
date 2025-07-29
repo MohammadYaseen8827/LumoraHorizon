@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Header Section -->
-    <section class="relative text-white py-20 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/src/assets/images/modern-warehouse.webp')">
+    <section class="relative text-white py-20 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/modern-warehouse.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-5xl font-bold mb-6">Warehousing Services</h1>
@@ -73,7 +73,7 @@
           <!-- Modern Warehouse Image -->
           <div>
             <img 
-              src="/src/assets/images/modern-warehouse.webp" 
+              src="/images/modern-warehouse.webp" 
               alt="Modern warehouse facility - Professional storage solutions"
               class="w-full h-80 object-cover rounded-lg shadow-lg"
             />
@@ -83,7 +83,7 @@
           <!-- Warehouse Storage Image -->
           <div>
             <img 
-              src="/src/assets/images/warehouse-storage.webp" 
+              src="/images/warehouse-storage.webp" 
               alt="Warehouse storage with proper packaging - Secure storage solutions"
               class="w-full h-80 object-cover rounded-lg shadow-lg"
             />
@@ -94,7 +94,7 @@
         <!-- Fragile Packaging Image -->
         <div class="max-w-4xl mx-auto">
           <img 
-            src="/src/assets/images/fragile-packaging.webp" 
+            src="/images/fragile-packaging.webp" 
             alt="Fragile packaging and handling services - Specialized cargo care"
             class="w-full h-64 object-cover rounded-lg shadow-lg"
           />

@@ -87,7 +87,7 @@
         </div>
 
         <div class="mb-12">
-          <img src="/src/assets/images/global-network-map.webp" alt="Global Network Map" class="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-lg">
+          <img src="/images/global-network-map.webp" alt="Global Network Map" class="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-lg">
         </div>
 
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
@@ -124,7 +124,7 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/src/assets/images/michel.webp" alt="Mahmoud Shaker" class="w-full h-full object-cover">
+              <img src="/images/michel.webp" alt="Mahmoud Shaker" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Mahmoud Shaker</h3>
             <p class="text-lumora-red font-medium mb-3">Founder</p>
@@ -135,7 +135,7 @@
           </div>
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/src/assets/images/michel.webp" alt="Ibrahem Ghanem" class="w-full h-full object-cover">
+              <img src="/images/michel.webp" alt="Ibrahem Ghanem" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Ibrahem Ghanem</h3>
             <p class="text-lumora-red font-medium mb-3">Chief Executive Officer</p>
@@ -146,7 +146,7 @@
           </div>
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/src/assets/images/sarah.webp" alt="Lubna Al Omari" class="w-full h-full object-cover">
+              <img src="/images/sarah.webp" alt="Lubna Al Omari" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Lubna Al Omari</h3>
             <p class="text-lumora-red font-medium mb-3">Operation Manager</p>
@@ -157,7 +157,7 @@
           </div>
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/src/assets/images/emily.webp" alt="Ahmed Ghanem" class="w-full h-full object-cover">
+              <img src="/images/emily.webp" alt="Ahmed Ghanem" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Ahmed Ghanem</h3>
             <p class="text-lumora-red font-medium mb-3">Key Account Manager</p>
@@ -168,7 +168,7 @@
           </div>
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/src/assets/images/michel.webp" alt="Michael Hanna" class="w-full h-full object-cover">
+              <img src="/images/michel.webp" alt="Michael Hanna" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Michael Hanna</h3>
             <p class="text-lumora-red font-medium mb-3">Finance Manager</p>
