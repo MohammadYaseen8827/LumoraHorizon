@@ -850,7 +850,7 @@ const videoElements = ref(new Map())
 const isPageLoaded = ref(false)
 const isSliderActive = ref(true)
 
-// Optimized video loading with lazy loading and better resource management
+// Simplified video loading for Netlify compatibility
 const loadVideoOnDemand = (slideIndex) => {
   if (videosLoaded.value.has(slideIndex)) return Promise.resolve()
   
@@ -863,34 +863,6 @@ const loadVideoOnDemand = (slideIndex) => {
       return
     }
     
-    if (video.src) {
-      // Video already has src, just make sure it's marked as loaded
-      videosLoaded.value.add(slideIndex)
-      videoElements.value.set(slideIndex, video)
-      resolve()
-      return
-    }
-    
-    const dataSrc = video.getAttribute('data-src')
-    if (!dataSrc) {
-      resolve()
-      return
-    }
-    
-    // Use lower resolution or compressed videos if available
-    // This is a placeholder - you would need to actually create these optimized versions
-    // const optimizedSrc = dataSrc.replace('.mp4', '-optimized.mp4')
-    // video.src = optimizedSrc
-    
-    // For now, use the original source
-    video.src = dataSrc
-    
-    // Use 'auto' instead of 'metadata' for better initial loading
-    video.preload = "auto"
-    
-    // Reduce quality for better performance
-    video.setAttribute('playsinline', '')
-    
     // Store video element reference
     videoElements.value.set(slideIndex, video)
     
@@ -899,28 +871,9 @@ const loadVideoOnDemand = (slideIndex) => {
       video.playbackRate = 3
     }
     
-    // Handle successful loading
-    const handleLoaded = () => {
-      video.setAttribute('data-loaded', 'true')
-      videosLoaded.value.add(slideIndex)
-      resolve()
-    }
-    
-    // Try to resolve as soon as we have enough data to play
-    video.addEventListener('canplay', handleLoaded, { once: true })
-    
-    // Fallback if canplay doesn't fire
-    video.addEventListener('loadeddata', handleLoaded, { once: true })
-    
-    // Handle load errors
-    video.addEventListener('error', () => {
-      console.error(`Error loading video for slide ${slideIndex}`)
-      videosLoaded.value.add(slideIndex) // Mark as loaded to prevent infinite retries
-      resolve()
-    }, { once: true })
-    
-    // Start loading
-    video.load()
+    // Mark as loaded since videos now have direct src attributes
+    videosLoaded.value.add(slideIndex)
+    resolve()
   })
 }
 
@@ -965,7 +918,6 @@ const nextSlide = async () => {
     const preloadIndex = (nextSlideIndex + 1) % 8
     if (preloadIndex !== 0 && !videosLoaded.value.has(preloadIndex)) { // Don't preload logo slide, and only if not loaded
       loadVideoOnDemand(preloadIndex)
-
     }
   }
 }
@@ -1007,7 +959,7 @@ const handleVisibilityChange = () => {
   }
 }
 
-// Optimized loading strategy
+// Simplified loading strategy for Netlify compatibility
 onMounted(async () => {
   // Add visibility change listener to save resources when tab is not active
   document.addEventListener('visibilitychange', handleVisibilityChange)
@@ -1018,11 +970,10 @@ onMounted(async () => {
   // Start auto-slide immediately with the logo
   startAutoSlide()
   
-  // Load first video in background
-  loadVideoOnDemand(1).then(() => {
-    // Once first video is loaded, preload second video with delay
-    setTimeout(() => loadVideoOnDemand(2), 2000)
-  })
+  // Load all videos immediately since they now have direct src attributes
+  for (let i = 1; i <= 7; i++) {
+    loadVideoOnDemand(i)
+  }
   
   // Use Intersection Observer to detect when slider is visible
   const sliderObserver = new IntersectionObserver((entries) => {
@@ -1052,14 +1003,6 @@ onMounted(async () => {
   if (sliderSection) {
     sliderObserver.observe(sliderSection)
   }
-  
-  // Load remaining videos progressively with increasing delays
-  // This spreads out the load on the browser
-  setTimeout(() => loadVideoOnDemand(3), 4000)  // Land freight
-  setTimeout(() => loadVideoOnDemand(4), 6000)  // Customs clearance
-  setTimeout(() => loadVideoOnDemand(5), 8000)  // Domestic transport
-  setTimeout(() => loadVideoOnDemand(6), 10000) // Storage
-  setTimeout(() => loadVideoOnDemand(7), 12000) // Global network
 })
 
 onUnmounted(() => {
