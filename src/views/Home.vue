@@ -26,12 +26,12 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 1"
-              data-src="/src/assets/images/airfreight-service.mp4" 
+              src="/src/assets/images/airfreight-service.mp4" 
               autoplay 
               muted 
               loop 
               playsinline
-              preload="none"
+              preload="metadata"
               class="w-full h-full object-cover"
               alt="Air Freight Services"
               data-slide="1"
@@ -59,12 +59,12 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 2"
-              data-src="/src/assets/images/seafreight-service.mp4" 
+              src="/src/assets/images/seafreight-service.mp4" 
               autoplay 
               muted 
               loop 
               playsinline
-              preload="none"
+              preload="metadata"
               class="w-full h-full object-cover"
               alt="Sea Freight Services"
               data-slide="2"
@@ -92,12 +92,12 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 3"
-              data-src="/src/assets/images/landfreight-service.mp4" 
+              src="/src/assets/images/landfreight-service.mp4" 
               autoplay 
               muted 
               loop 
               playsinline
-              preload="none"
+              preload="metadata"
               class="w-full h-full object-cover"
               alt="Land Freight Services"
               data-slide="3"
@@ -125,12 +125,12 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 4"
-              data-src="/src/assets/images/customs-clearance.mp4" 
+              src="/src/assets/images/customs-clearance.mp4" 
               autoplay 
               muted 
               loop 
               playsinline
-              preload="none"
+              preload="metadata"
               class="w-full h-full object-cover"
               alt="Customs Clearance Services"
               data-slide="4"
@@ -158,12 +158,12 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 5"
-              data-src="/src/assets/images/domestic-transport.mp4" 
+              src="/src/assets/images/domestic-transport.mp4" 
               autoplay 
               muted 
               loop 
               playsinline
-              preload="none"
+              preload="metadata"
               class="w-full h-full object-cover"
               alt="Domestic Transportation Services"
               data-slide="5"
@@ -191,12 +191,12 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 6"
-              data-src="/src/assets/images/storage-service.mp4" 
+              src="/src/assets/images/storage-service.mp4" 
               autoplay 
               muted 
               loop 
               playsinline
-              preload="none"
+              preload="metadata"
               class="w-full h-full object-cover"
               alt="Packing, Storage & Cargo Insurance"
               data-slide="6"
@@ -224,12 +224,12 @@
           <div class="relative w-full h-full">
             <video 
               v-show="currentSlide === 7"
-              data-src="/src/assets/images/global-networking-video.mp4" 
+              src="/src/assets/images/global-networking-video.mp4" 
               autoplay 
               muted 
               loop 
               playsinline
-              preload="none"
+              preload="metadata"
               class="w-full h-full object-cover"
               alt="Global Shipping Network"
               data-slide="7"
