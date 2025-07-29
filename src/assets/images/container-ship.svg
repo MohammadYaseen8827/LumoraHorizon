@@ -1,0 +1,38 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ocean -->
+  <rect x="0" y="150" width="400" height="50" fill="#4A90E2"/>
+  
+  <!-- Waves -->
+  <path d="M0 150 Q50 140 100 150 T200 150 T300 150 T400 150" stroke="#2C5AA0" stroke-width="2" fill="none"/>
+  <path d="M0 160 Q40 155 80 160 T160 160 T240 160 T320 160 T400 160" stroke="#2C5AA0" stroke-width="1" fill="none"/>
+  
+  <!-- Ship Hull -->
+  <path d="M50 150 L320 150 L300 130 L70 130 Z" fill="#8c1b1c"/>
+  
+  <!-- Containers -->
+  <rect x="80" y="115" width="30" height="15" fill="#f9d6a5" stroke="#8c1b1c" stroke-width="1"/>
+  <rect x="115" y="115" width="30" height="15" fill="#34C759" stroke="#2d6e3b" stroke-width="1"/>
+  <rect x="150" y="115" width="30" height="15" fill="#007AFF" stroke="#005cbf" stroke-width="1"/>
+  <rect x="185" y="115" width="30" height="15" fill="#FF3B30" stroke="#d70015" stroke-width="1"/>
+  <rect x="220" y="115" width="30" height="15" fill="#f9d6a5" stroke="#8c1b1c" stroke-width="1"/>
+  <rect x="255" y="115" width="30" height="15" fill="#34C759" stroke="#2d6e3b" stroke-width="1"/>
+  
+  <!-- Second Layer -->
+  <rect x="115" y="100" width="30" height="15" fill="#FF9500" stroke="#cc7a00" stroke-width="1"/>
+  <rect x="150" y="100" width="30" height="15" fill="#f9d6a5" stroke="#8c1b1c" stroke-width="1"/>
+  <rect x="185" y="100" width="30" height="15" fill="#5856D6" stroke="#4745aa" stroke-width="1"/>
+  <rect x="220" y="100" width="30" height="15" fill="#007AFF" stroke="#005cbf" stroke-width="1"/>
+  
+  <!-- Bridge -->
+  <rect x="270" y="105" width="25" height="25" fill="#f0f0f0" stroke="#8c1b1c" stroke-width="1"/>
+  <rect x="275" y="110" width="15" height="8" fill="#4A90E2"/>
+  
+  <!-- Mast -->
+  <line x1="285" y1="105" x2="285" y2="80" stroke="#666" stroke-width="2"/>
+  <circle cx="285" cy="80" r="3" fill="#FF3B30"/>
+  
+  <!-- Smoke -->
+  <circle cx="290" cy="95" r="3" fill="#ddd" opacity="0.7"/>
+  <circle cx="295" cy="90" r="4" fill="#ddd" opacity="0.5"/>
+  <circle cx="300" cy="85" r="5" fill="#ddd" opacity="0.3"/>
+</svg>
