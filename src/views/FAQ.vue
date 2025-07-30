@@ -1,13 +1,13 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="bg-lumora-red text-white py-16">
+    <section class="bg-lumora-beige py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="text-4xl font-bold mb-6">
+          <h1 class="text-4xl font-bold mb-6 text-lumora-red">
             Frequently Asked Questions
           </h1>
-          <p class="text-lg text-lumora-beige max-w-4xl mx-auto leading-relaxed">
+          <p class="text-lg text-white max-w-4xl mx-auto leading-relaxed">
             Find answers to common questions about our logistics services and processes.
           </p>
         </div>
@@ -198,25 +198,25 @@
       </div>
     </section>
 
-    <!-- Still Have Questions CTA -->
-    <section class="py-16 bg-lumora-red">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl font-bold text-white mb-4">
+    <!-- Ready to Experience CTA -->
+    <section class="py-16 bg-lumora-beige">
+      <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-lumora-red mb-6">
           Still have questions?
         </h2>
-        <p class="text-lg text-lumora-beige mb-8">
+        <p class="text-lg text-lumora-red mb-8">
           Our customer service team is here to help you with any questions or concerns you may have.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <router-link
-            to="/contact"
-            class="inline-block bg-white text-lumora-red px-8 py-3 rounded-lg font-semibold hover:bg-lumora-beige transition-colors"
+          <router-link 
+            to="/contact" 
+            class="inline-block bg-lumora-red text-white px-8 py-3 rounded-lg font-semibold hover:bg-lumora-red/90 transition-colors"
           >
             Contact Us
           </router-link>
           <a
-            href="tel:+9647717547000"
-            class="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-lumora-red transition-colors"
+            href="tel:+9647810337004"
+            class="inline-block border-2 border-lumora-red text-lumora-red px-8 py-3 rounded-lg font-semibold hover:bg-lumora-red hover:text-white transition-colors"
           >
             Call Information Center
           </a>

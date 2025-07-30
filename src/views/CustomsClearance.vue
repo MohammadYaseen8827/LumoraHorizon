@@ -1,13 +1,13 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/customs-clearance-main.webp')">
+    <section class="relative bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/customs-clearance-main.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="text-4xl font-bold mb-6">
+          <h1 class="text-4xl font-bold mb-6 text-white">
             Customs Clearance
           </h1>
-          <p class="text-lg text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p class="text-lg text-white max-w-3xl mx-auto leading-relaxed">
             Fast & Efficient Customs Clearance — Expert clearance at all Iraqi airports, ports, and border crossings 
             with complete documentation management and regulatory compliance.
           </p>
@@ -92,7 +92,7 @@
             <!-- Custom Clearance Example Image -->
             <div class="mb-8">
               <img 
-                src="/images/custom-clearance-example.png" 
+                src="/images/custom-clearance-example.webp" 
                 alt="Cargo handling and customs clearance example"
                 class="w-full h-64 object-cover rounded-lg shadow-lg"
               />
@@ -144,17 +144,17 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="bg-gray-100 py-12">
+    <section class="bg-lumora-beige py-12">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-2xl font-bold text-gray-900 mb-4">
+        <h2 class="text-2xl font-bold text-lumora-red mb-4">
           Need Customs Clearance in Iraq?
         </h2>
-        <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p class="text-lg text-lumora-red mb-8 max-w-2xl mx-auto">
           Let our customs experts handle all documentation and procedures for smooth cargo clearance.
         </p>
         <router-link
           to="/contact"
-          class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 transition-colors"
+          class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-lumora-red hover:bg-lumora-red/90 transition-colors"
         >
           Get Clearance Quote
           <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

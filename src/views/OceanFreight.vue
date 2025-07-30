@@ -1,19 +1,14 @@
 <template>
   <div>
     <!-- Header Section -->
-    <section class="py-20 bg-lumora-beige/20">
+    <section class="relative bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/container-ship-port.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h1 class="text-5xl font-bold text-gray-900 mb-6">Ocean Freight Services</h1>
-            <p class="text-xl text-gray-600">
-              Cost-effective and reliable ocean shipping solutions for your international cargo needs. 
-              Connect global markets with our comprehensive sea freight services.
-            </p>
-          </div>
-          <div class="flex justify-center">
-            <img src="/images/container-ship.svg" alt="Ocean Freight Container Ship" class="w-full max-w-lg h-auto">
-          </div>
+        <div class="text-center">
+          <h1 class="text-4xl font-bold mb-6 text-white">Ocean Freight Services</h1>
+          <p class="text-lg text-white max-w-3xl mx-auto leading-relaxed">
+            Cost-effective and reliable ocean shipping solutions for your international cargo needs. 
+            Connect global markets with our comprehensive sea freight services.
+          </p>
         </div>
       </div>
     </section>
@@ -335,17 +330,17 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="py-20 bg-lumora-red">
+    <section class="py-20 bg-lumora-beige">
       <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-white mb-6">
+        <h2 class="text-3xl font-bold text-lumora-red mb-6">
           Ready to Ship by Ocean?
         </h2>
-        <p class="text-lg text-lumora-beige mb-8">
+        <p class="text-lg text-lumora-red mb-8">
           Get competitive ocean freight rates and reliable shipping solutions for your international cargo needs.
         </p>
         <router-link 
           to="/contact" 
-          class="inline-block bg-white text-lumora-red px-8 py-3 rounded-lg font-semibold hover:bg-lumora-beige transition-colors"
+          class="inline-block bg-lumora-red text-white px-8 py-3 rounded-lg font-semibold hover:bg-lumora-red/90 transition-colors"
         >
           Get Ocean Freight Quote
         </router-link>

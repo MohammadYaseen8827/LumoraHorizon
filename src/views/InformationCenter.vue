@@ -1,13 +1,13 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="bg-lumora-red text-white py-16">
+    <section class="bg-lumora-beige py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="text-4xl font-bold mb-6">
+          <h1 class="text-4xl font-bold mb-6 text-lumora-red">
             Information Center
           </h1>
-          <p class="text-lg text-lumora-beige max-w-4xl mx-auto leading-relaxed">
+          <p class="text-lg text-white max-w-4xl mx-auto leading-relaxed">
             Access essential logistics resources, tools, and guides to optimize your shipping operations
           </p>
         </div>

@@ -1,13 +1,13 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="bg-lumora-red text-white py-16">
+    <section class="relative bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/global-network-map.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="text-4xl font-bold mb-6">
+          <h1 class="text-4xl font-bold mb-6 text-white">
             Global Shipping Network
           </h1>
-          <p class="text-lg text-lumora-beige max-w-4xl mx-auto leading-relaxed">
+          <p class="text-lg text-white max-w-4xl mx-auto leading-relaxed">
             Worldwide Reach, Local Expertise — Powered by Trusted Global Partners enabling flexible, 
             reliable, and competitive routing options tailored to your shipment needs.
           </p>
@@ -21,9 +21,6 @@
         
         <!-- Network Visualization -->
         <div class="text-center mb-16">
-          <div class="mb-8">
-            <img src="/images/global-network-map.webp" alt="Global Logistics Network" class="w-full h-auto rounded-lg shadow-lg mx-auto max-w-4xl">
-          </div>
           <h2 class="text-3xl font-bold text-gray-900 mb-4">
             Worldwide Reach, Local Expertise
           </h2>
@@ -241,17 +238,17 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="bg-gray-100 py-12">
+    <section class="bg-lumora-beige py-12">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-2xl font-bold text-gray-900 mb-4">
+        <h2 class="text-2xl font-bold text-lumora-red mb-4">
           Ready to Ship from Anywhere?
         </h2>
-        <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p class="text-lg text-lumora-red mb-8 max-w-2xl mx-auto">
           Leverage our global network of trusted partners for reliable shipping solutions from any origin to Iraq.
         </p>
         <router-link
           to="/contact"
-          class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-600 hover:bg-teal-700 transition-colors"
+          class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-lumora-red hover:bg-lumora-red/90 transition-colors"
         >
           Connect Globally
           <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

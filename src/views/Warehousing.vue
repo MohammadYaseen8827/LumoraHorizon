@@ -1,11 +1,11 @@
 <template>
   <div>
     <!-- Header Section -->
-    <section class="relative text-white py-20 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/modern-warehouse.webp')">
+    <section class="relative bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/modern-warehouse.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="text-5xl font-bold mb-6">Warehousing Services</h1>
-          <p class="text-xl text-white/90 max-w-3xl mx-auto">
+          <h1 class="text-4xl font-bold mb-6 text-white">Warehousing Services</h1>
+          <p class="text-lg text-white max-w-3xl mx-auto leading-relaxed">
             Secure storage and distribution solutions with state-of-the-art facilities. 
             Optimize your supply chain with our comprehensive warehousing and fulfillment services.
           </p>
@@ -286,17 +286,17 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="py-20 bg-lumora-red">
+    <section class="py-20 bg-lumora-beige">
       <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-white mb-6">
+        <h2 class="text-3xl font-bold text-lumora-red mb-6">
           Need Warehousing Solutions?
         </h2>
-        <p class="text-lg text-lumora-beige mb-8">
+        <p class="text-lg text-lumora-red mb-8">
           Optimize your supply chain with our secure storage facilities and comprehensive warehousing services.
         </p>
         <router-link 
           to="/contact" 
-          class="inline-block bg-white text-lumora-red px-8 py-3 rounded-lg font-semibold hover:bg-lumora-beige transition-colors"
+          class="inline-block bg-lumora-red text-white px-8 py-3 rounded-lg font-semibold hover:bg-lumora-red/90 transition-colors"
         >
           Get Warehousing Quote
         </router-link>

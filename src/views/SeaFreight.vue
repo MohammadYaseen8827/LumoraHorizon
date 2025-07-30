@@ -1,13 +1,13 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative text-white py-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/hapag-lloyd-ship.webp')">
+    <section class="relative bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/container-ship-port.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="text-4xl font-bold mb-6">
+          <h1 class="text-4xl font-bold mb-6 text-white">
             Sea Freight Services
           </h1>
-          <p class="text-lg text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p class="text-lg text-white max-w-3xl mx-auto leading-relaxed">
             Reliable Sea Freight Solutions — FCL/LCL ocean freight from China, UAE, India, Korea to Iraq via Um Qasr Port 
             with comprehensive insurance coverage and competitive rates.
           </p>
@@ -148,17 +148,17 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="bg-gray-100 py-12">
+    <section class="bg-lumora-beige py-12">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-2xl font-bold text-gray-900 mb-4">
+        <h2 class="text-2xl font-bold text-lumora-red mb-4">
           Ready to Ship Your Cargo to Iraq?
         </h2>
-        <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p class="text-lg text-lumora-red mb-8 max-w-2xl mx-auto">
           Get competitive rates for your sea freight shipment with our reliable ocean freight services.
         </p>
         <router-link
           to="/contact"
-          class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors"
+          class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-lumora-red hover:bg-lumora-red/90 transition-colors"
         >
           Get Quote Now
           <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -1,13 +1,13 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="bg-lumora-red text-white py-16">
+    <section class="bg-lumora-beige py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="text-4xl font-bold mb-6">
+          <h1 class="text-4xl font-bold mb-6 text-lumora-red">
             About Lumora Horizon
           </h1>
-          <p class="text-lg text-lumora-beige max-w-4xl mx-auto leading-relaxed">
+          <p class="text-lg text-white max-w-4xl mx-auto leading-relaxed">
             A new-generation logistics company powered by young energy, over a decade of industry experience, 
             and a deep understanding of global trade.
           </p>
@@ -124,7 +124,7 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/images/michel.webp" alt="Mahmoud Shaker" class="w-full h-full object-cover">
+              <img src="/images/lumora-logo-final.webp" alt="Mahmoud Shaker" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Mahmoud Shaker</h3>
             <p class="text-lumora-red font-medium mb-3">Founder</p>
@@ -135,7 +135,7 @@
           </div>
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/images/michel.webp" alt="Ibrahem Ghanem" class="w-full h-full object-cover">
+              <img src="/images/lumora-logo-final.webp" alt="Ibrahem Ghanem" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Ibrahem Ghanem</h3>
             <p class="text-lumora-red font-medium mb-3">Chief Executive Officer</p>
@@ -146,7 +146,7 @@
           </div>
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/images/sarah.webp" alt="Lubna Al Omari" class="w-full h-full object-cover">
+              <img src="/images/lumora-logo-final.webp" alt="Lubna Al Omari" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Lubna Al Omari</h3>
             <p class="text-lumora-red font-medium mb-3">Operation Manager</p>
@@ -157,7 +157,7 @@
           </div>
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/images/emily.webp" alt="Ahmed Ghanem" class="w-full h-full object-cover">
+              <img src="/images/lumora-logo-final.webp" alt="Ahmed Ghanem" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Ahmed Ghanem</h3>
             <p class="text-lumora-red font-medium mb-3">Key Account Manager</p>
@@ -168,7 +168,7 @@
           </div>
           <div class="text-center">
             <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
-              <img src="/images/michel.webp" alt="Michael Hanna" class="w-full h-full object-cover">
+              <img src="/images/lumora-logo-final.webp" alt="Michael Hanna" class="w-full h-full object-cover">
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">Michael Hanna</h3>
             <p class="text-lumora-red font-medium mb-3">Finance Manager</p>
@@ -320,25 +320,25 @@
     </section>
 
     <!-- Ready to Experience CTA -->
-    <section class="py-16 bg-lumora-red">
+    <section class="py-16 bg-lumora-beige">
       <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-white mb-6">
+        <h2 class="text-3xl font-bold text-lumora-red mb-6">
           Ready to Experience World-Class Logistics?
         </h2>
-        <p class="text-lg text-lumora-beige mb-8">
+        <p class="text-lg text-lumora-red mb-8">
           Let us show you how our global network and expertise can transform your supply chain operations. 
           Partner with A-JWX Logistics for reliable, efficient, and innovative shipping solutions.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <router-link 
             to="/contact" 
-            class="inline-block bg-white text-lumora-red px-8 py-3 rounded-lg font-semibold hover:bg-lumora-beige transition-colors"
+            class="inline-block bg-lumora-red text-white px-8 py-3 rounded-lg font-semibold hover:bg-lumora-red/90 transition-colors"
           >
             Get Started
           </router-link>
           <router-link 
             to="/services" 
-            class="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-lumora-red transition-colors"
+            class="inline-block border-2 border-lumora-red text-lumora-red px-8 py-3 rounded-lg font-semibold hover:bg-lumora-red hover:text-white transition-colors"
           >
             View Services
           </router-link>

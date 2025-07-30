@@ -1,19 +1,14 @@
 <template>
   <div>
     <!-- Header Section -->
-    <section class="py-20 bg-lumora-beige/20">
+    <section class="relative bg-cover bg-center py-20" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/red-truck.webp')">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h1 class="text-5xl font-bold text-gray-900 mb-6">Land Transport Services</h1>
-            <p class="text-xl text-gray-600">
-              Efficient ground transportation solutions for regional and cross-border shipping. 
-              Connect inland destinations with reliable truck and rail freight services.
-            </p>
-          </div>
-          <div class="flex justify-center">
-            <img src="/images/truck.svg" alt="Land Transport Services" class="w-full max-w-lg h-auto">
-          </div>
+        <div class="text-center">
+          <h1 class="text-4xl font-bold mb-6 text-white">Land Transport Services</h1>
+          <p class="text-lg text-white max-w-3xl mx-auto leading-relaxed">
+            Efficient ground transportation solutions for regional and cross-border shipping. 
+            Connect inland destinations with reliable truck and rail freight services.
+          </p>
         </div>
       </div>
     </section>
@@ -215,17 +210,17 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="py-20 bg-lumora-red">
+    <section class="py-20 bg-lumora-beige">
       <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-white mb-6">
+        <h2 class="text-3xl font-bold text-lumora-red mb-6">
           Need Reliable Land Transport?
         </h2>
-        <p class="text-lg text-lumora-beige mb-8">
+        <p class="text-lg text-lumora-red mb-8">
           Get competitive ground transportation rates and flexible delivery solutions for your regional shipping needs.
         </p>
         <router-link 
           to="/contact" 
-          class="inline-block bg-white text-lumora-red px-8 py-3 rounded-lg font-semibold hover:bg-lumora-beige transition-colors"
+          class="inline-block bg-lumora-red text-white px-8 py-3 rounded-lg font-semibold hover:bg-lumora-red/90 transition-colors"
         >
           Get Land Transport Quote
         </router-link>

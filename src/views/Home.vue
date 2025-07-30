@@ -16,8 +16,13 @@
         <!-- Slide 1: Logo -->
         <div class="absolute inset-0 transition-opacity duration-1000" :class="{ 'opacity-100': currentSlide === 0, 'opacity-0': currentSlide !== 0 }">
           <div class="relative w-full h-full bg-gradient-to-br from-lumora-beige via-yellow-50 to-white">
-            <img src="/images/lumora-logo-final.webp" alt="Lumora Horizon Logo" class="w-full h-full object-cover" loading="lazy">
-
+            <img 
+              src="/images/lumora-logo-final.webp" 
+              alt="Lumora Horizon Logo" 
+              class="w-full h-full object-cover" 
+              loading="eager"
+              fetchpriority="high"
+            >
           </div>
         </div>
         
@@ -31,7 +36,7 @@
               muted 
               loop 
               playsinline
-              preload="metadata"
+              preload="none"
               class="w-full h-full object-cover"
               alt="Air Freight Services"
               data-slide="1"
@@ -64,7 +69,7 @@
               muted 
               loop 
               playsinline
-              preload="metadata"
+              preload="none"
               class="w-full h-full object-cover"
               alt="Sea Freight Services"
               data-slide="2"
@@ -97,7 +102,7 @@
               muted 
               loop 
               playsinline
-              preload="metadata"
+              preload="none"
               class="w-full h-full object-cover"
               alt="Land Freight Services"
               data-slide="3"
@@ -130,7 +135,7 @@
               muted 
               loop 
               playsinline
-              preload="metadata"
+              preload="none"
               class="w-full h-full object-cover"
               alt="Customs Clearance Services"
               data-slide="4"
@@ -163,7 +168,7 @@
               muted 
               loop 
               playsinline
-              preload="metadata"
+              preload="none"
               class="w-full h-full object-cover"
               alt="Domestic Transportation Services"
               data-slide="5"
@@ -196,7 +201,7 @@
               muted 
               loop 
               playsinline
-              preload="metadata"
+              preload="none"
               class="w-full h-full object-cover"
               alt="Packing, Storage & Cargo Insurance"
               data-slide="6"
@@ -229,7 +234,7 @@
               muted 
               loop 
               playsinline
-              preload="metadata"
+              preload="none"
               class="w-full h-full object-cover"
               alt="Global Shipping Network"
               data-slide="7"
@@ -331,7 +336,7 @@
     </section>
     
     <!-- Streamlined Operations Section -->
-    <section class="py-12 bg-white">
+    <section class="py-12 bg-white hidden">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-8">
           <h2 class="text-2xl font-bold text-gray-900 mb-2">Professional Logistics Operations</h2>
@@ -783,24 +788,24 @@
     </section>
 
     <!-- Ready to Optimize Your Supply Chain -->
-    <section class="py-20 bg-lumora-red">
+    <section class="py-20 bg-lumora-beige">
       <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-white mb-6">
+        <h2 class="text-3xl font-bold text-lumora-red mb-6">
           Ready to Optimize Your Supply Chain?
         </h2>
-        <p class="text-lg text-lumora-beige mb-8">
+        <p class="text-lg text-lumora-red mb-8">
           Contact our team today for a personalized logistics solution tailored to your business needs.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <router-link 
             to="/contact" 
-            class="inline-block bg-white text-lumora-red px-8 py-3 rounded-lg font-semibold hover:bg-lumora-beige transition-colors"
+            class="inline-block bg-lumora-red text-white px-8 py-3 rounded-lg font-semibold hover:bg-lumora-red/90 transition-colors"
           >
             Request Quote
           </router-link>
           <router-link 
             to="/services" 
-            class="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-lumora-red transition-colors"
+            class="inline-block border-2 border-lumora-red text-lumora-red px-8 py-3 rounded-lg font-semibold hover:bg-lumora-red hover:text-white transition-colors"
           >
             Explore Services
           </router-link>
@@ -814,7 +819,7 @@
     <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
       <!-- WhatsApp Button -->
       <a 
-        href="https://wa.me/9647717547000?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20logistics%20services%20to%20Iraq"
+        href="https://wa.me/9647810337004?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20logistics%20services%20to%20Iraq"
         target="_blank"
         class="flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg transition-all duration-300 hover:scale-110"
         title="Chat with us on WhatsApp"
@@ -824,23 +829,17 @@
         </svg>
       </a>
       
-      <!-- Telegram Button -->
-      <a 
-        href="https://t.me/+9647717547000"
-        target="_blank"
-        class="flex items-center justify-center w-14 h-14 bg-blue-500 hover:bg-blue-600 text-white rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-        title="Message us on Telegram"
-      >
-        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
-        </svg>
-      </a>
+
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted, onUnmounted, nextTick } from 'vue'
+
+// Content loading state
+const contentLoaded = ref(false)
+const sectionsObserver = ref(null)
 
 // Slider functionality
 const currentSlide = ref(0)
@@ -850,7 +849,7 @@ const videoElements = ref(new Map())
 const isPageLoaded = ref(false)
 const isSliderActive = ref(true)
 
-// Simplified video loading for Netlify compatibility
+// Optimized video loading with error handling
 const loadVideoOnDemand = (slideIndex) => {
   if (videosLoaded.value.has(slideIndex)) return Promise.resolve()
   
@@ -871,9 +870,27 @@ const loadVideoOnDemand = (slideIndex) => {
       video.playbackRate = 3
     }
     
-    // Mark as loaded since videos now have direct src attributes
-    videosLoaded.value.add(slideIndex)
-    resolve()
+    // Add error handling for video loading
+    video.addEventListener('error', () => {
+      console.warn(`Failed to load video for slide ${slideIndex}`)
+      // Mark as loaded to prevent retry attempts
+      videosLoaded.value.add(slideIndex)
+      resolve()
+    })
+    
+    // Add load event listener
+    video.addEventListener('loadeddata', () => {
+      videosLoaded.value.add(slideIndex)
+      resolve()
+    })
+    
+    // Set a timeout to prevent hanging
+    setTimeout(() => {
+      if (!videosLoaded.value.has(slideIndex)) {
+        videosLoaded.value.add(slideIndex)
+        resolve()
+      }
+    }, 5000) // 5 second timeout
   })
 }
 
@@ -959,8 +976,16 @@ const handleVisibilityChange = () => {
   }
 }
 
-// Simplified loading strategy for Netlify compatibility
+// Optimized loading strategy for better performance
 onMounted(async () => {
+  // Performance monitoring
+  const startTime = performance.now()
+  
+  // Log performance metrics
+  const logPerformance = () => {
+    const loadTime = performance.now() - startTime
+    console.log(`Home page loaded in ${loadTime.toFixed(2)}ms`)
+  }
   // Add visibility change listener to save resources when tab is not active
   document.addEventListener('visibilitychange', handleVisibilityChange)
   
@@ -970,9 +995,55 @@ onMounted(async () => {
   // Start auto-slide immediately with the logo
   startAutoSlide()
   
-  // Load all videos immediately since they now have direct src attributes
-  for (let i = 1; i <= 7; i++) {
-    loadVideoOnDemand(i)
+  // Detect mobile device for optimized loading
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+  
+  if (isMobile) {
+    // On mobile, load only the first video initially
+    await loadVideoOnDemand(1)
+    
+    // Set up intersection observer for content sections with mobile optimizations
+    sectionsObserver.value = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          if (!contentLoaded.value) {
+            contentLoaded.value = true
+          }
+          entry.target.classList.add('fade-in')
+          
+          // Load videos progressively on mobile when content becomes visible
+          if (entry.target.classList.contains('py-16') || entry.target.classList.contains('py-20')) {
+            // Load next video when user scrolls to content
+            const nextVideoIndex = Math.min(currentSlide.value + 2, 7)
+            if (nextVideoIndex > 1) {
+              loadVideoOnDemand(nextVideoIndex)
+            }
+          }
+        }
+      })
+    }, { 
+      threshold: 0.05,
+      rootMargin: '100px'
+    })
+  } else {
+    // On desktop, load videos progressively - only load the next 2 videos initially
+    await loadVideoOnDemand(1) // Load first video immediately
+    loadVideoOnDemand(2) // Preload second video
+    
+    // Set up intersection observer for content sections
+    sectionsObserver.value = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          if (!contentLoaded.value) {
+            contentLoaded.value = true
+          }
+          entry.target.classList.add('fade-in')
+        }
+      })
+    }, { 
+      threshold: 0.1,
+      rootMargin: '50px'
+    })
   }
   
   // Use Intersection Observer to detect when slider is visible
@@ -987,6 +1058,13 @@ onMounted(async () => {
         currentVideo.play().catch(() => {})
       }
       startAutoSlide()
+      
+      // Load remaining videos when slider becomes visible (desktop only)
+      if (!isMobile) {
+        for (let i = 3; i <= 7; i++) {
+          loadVideoOnDemand(i)
+        }
+      }
     } else {
       // When slider is not visible, pause all videos and stop auto-slide
       stopAutoSlide()
@@ -1003,6 +1081,15 @@ onMounted(async () => {
   if (sliderSection) {
     sliderObserver.observe(sliderSection)
   }
+  
+  // Observe all content sections
+  const contentSections = document.querySelectorAll('section:not(.relative.h-screen)')
+  contentSections.forEach(section => {
+    sectionsObserver.value.observe(section)
+  })
+  
+  // Log performance after initial setup
+  setTimeout(logPerformance, 100)
 })
 
 onUnmounted(() => {
@@ -1019,5 +1106,10 @@ onUnmounted(() => {
   })
   videoElements.value.clear()
   videosLoaded.value.clear()
+  
+  // Clean up intersection observers
+  if (sectionsObserver.value) {
+    sectionsObserver.value.disconnect()
+  }
 })
 </script>
